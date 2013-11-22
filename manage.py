@@ -5,7 +5,8 @@ from frienger.auth.funcs import login_api_required
 app = create_app()
 manager = Manager(app)
 
-
+print "iloveyou"
+i19.94.229.58	pma.www44264u.sakura.ne.jp
 @manager.command
 def run():
     """Run in local machine."""
