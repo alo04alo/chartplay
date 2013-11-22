@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from frienger.auth.funcs import login_api_required
-
-app = create_app()
 manager = Manager(app)
 
 
@@ -16,7 +13,6 @@ def run():
 
 @manager.command
 def initdb():
-    print "show tammao"
 
 
 if __name__ == "__main__":
