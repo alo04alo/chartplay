@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-
+#print this is comment of tammao :)
 from flask.ext.script import Manager
 
+from fbone.app import create_app
 from fbone.app import create_app
 from fbone.extensions import db
 from frienger.user import User, UserDetail, ADMIN, ACTIVE
