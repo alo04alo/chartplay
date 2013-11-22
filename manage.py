@@ -16,7 +16,7 @@ def run():
 
 @manager.command
 def initdb():
-    """Init/reset database."""
+    print "show tammao"
 
 
 if __name__ == "__main__":
