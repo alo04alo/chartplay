@@ -1,19 +1,5 @@
 # -*- coding: utf-8 -*-
 
-manager = Manager(app)
+#!/usr/bin/python
 
-
-@manager.command
-def run():
-    """Run in local machine."""
-
-    app.run(host="0.0.0.0", port=6969, debug=True)
-
-
-
-@manager.command
-def initdb():
-
-
-if __name__ == "__main__":
-    manager.run()
+print "SONNV - Give a reason why want to request friendship with this user"
