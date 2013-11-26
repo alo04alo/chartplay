@@ -2,4 +2,5 @@
 
 #!/usr/bin/python
 
+print "SONNV - add some code"
 print "SONNV - Give a reason why want to request friendship with this user"
